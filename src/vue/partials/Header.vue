@@ -18,6 +18,7 @@
                 <!-- Texts -->
                 <h1 class="heading">{{ props.headerData['title'] }}</h1>
                 <h4 class="subheading">{{ props.headerData['subtitle'] }}</h4>
+                <h3 class="description">{{ props.headerData['description'] }}</h3>
 
                 <!-- Button -->
                 <XLButton :icon="props.headerData['button'].icon"
@@ -100,9 +101,15 @@ const _onButtonClick = () => {
     .subheading {
         font-family: $custom-subheadings-font-family;
         color: $light-5;
-
+        margin-top: -8px;
         font-size: calc(var(--logo-proportion)/13);
         padding: calc(var(--logo-proportion)/20) 0;
+    }
+    .description {
+        font-family: $custom-subheadings-font-family;
+        color: $light-5;
+        color: rgb(255, 255, 255);
+        margin-top: -16px;
     }
 }
 </style>

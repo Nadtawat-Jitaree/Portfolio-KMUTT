@@ -28,13 +28,15 @@
 
             <!-- About Subsection -->
             <div class="subsection mt-4">
-                <h5 class="d-none d-lg-inline-block"><i class="fa fa-file me-1"/> {{ data.getString('about') }}</h5>
+                <!-- <h5 class="d-none d-lg-inline-block"><i class="fa fa-file me-1"/> {{ data.getString('about') }}</h5> -->
+                <h5 class="d-none d-lg-inline-block"><i class="fa fa-file me-1"/> เกี่ยวกับ</h5>
                 <p class="text-2" v-html="props.project['description']"/>
             </div>
 
             <!-- Links Subsection -->
             <div class="subsection mt-4">
-                <h5><i class="fa fa-external-link me-1"/> {{ data.getString('where_to_find') }}</h5>
+                <!-- <h5><i class="fa fa-external-link me-1"/> {{ data.getString('where_to_find') }}</h5> -->
+                <h5><i class="fa fa-external-link me-1"/>  ชมผลงาน</h5>
                 <p class="text-2" v-html="data.getString('project_available_here', [
                     {key: 'title', replacement:props.project['title']}
                 ])"/>

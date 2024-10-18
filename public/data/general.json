@@ -11,6 +11,7 @@
     "header": {
         "title": "Nadtawat Jitaree",
         "subtitle": "คณะเทคโนโลยีสารสนเทศ สาขาวิชาเทคโนโลสีสารสนเทศ",
+        "description": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
         "imageUrl": "images/logo/nan.png",
         "button": {
             "label": "เหตุผลที่อยากเข้า",
@@ -65,7 +66,7 @@
         "loading": "Loading...",
         "message_sent": "The message has been sent.",
         "message_sent_error": "There was an error sending the message.",
-        "project_available_here": "<strong>@{title}</strong> is available on the following platforms or services:",
+        "project_available_here": "<strong>@{title}</strong> อยู่บนเว็บไซต์เหล่านี้",
         "sending_message": "Sending Message...",
         "tags": "Tags:",
         "where_to_find": "Where To Find"

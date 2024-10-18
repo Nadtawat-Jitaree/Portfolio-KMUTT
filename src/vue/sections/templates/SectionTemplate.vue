@@ -16,10 +16,11 @@
             <div v-if="sectionHeadlineData && sectionHeadlineData['title']" class="section-heading">
                 <h1 class="section-title mb-1" v-html="sectionHeadlineData['title']"/>
                 <h5 class="section-subtitle" v-html="sectionHeadlineData['subtitle']"/>
+                <h5 class="section-subtitle" v-html="sectionHeadlineData['subtitle1']"/>
             </div>
 
             <!-- Section Content -->
-            <div class="section-body">
+            <div class="section-body" style="margin-top: -32px;">
                 <!-- Yield custom section content -->
                 <slot/>
             </div>
@@ -101,7 +102,7 @@ const sectionFooterData = computed(() => {
         md:   (margin-bottom: 2.75rem),
         sm:   (margin-bottom: 2.5rem),
     ));
-
+    margin-top: -16px;
     text-align: center;
 }
 

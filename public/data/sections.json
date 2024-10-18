@@ -5,12 +5,13 @@
             "component": "AboutSection",
             "class": "agency-section",
             "navbar": {
-                "label": "About",
+                "label": "เหตุผลที่อยากเข้า",
                 "faIcon": "fa-solid fa-file"
             },
             "headline": {
                 "title": "<span class='text-primary'>เหตุผลที่อยากเข้า</span>",
-                "subtitle": "เหตุผลที่อยากเข้า มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี สาขาเทคโนโลยีสารสนเทศ"
+                "subtitle": "คณะเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีสารสนเทศ",
+                "subtitle1": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี"
             },
             "items": [
                 {
@@ -20,7 +21,7 @@
                         "ผมเคยมีประสบการณ์ในการพัฒนาเว็บไซต์เกี่ยวกับการท่องเที่ยวในอำเภอบ้านเกิดโดยใช้ Vue.js โดยมีเป้าหมายให้เว็บไซต์ติดอันดับหนึ่งในการค้นหาด้วย SEO ผ่านการใช้คีย์เวิร์ด 'คาเฟ่ในอำเภอปัว' ซึ่งประสบความสำเร็จ ทำให้เกิดแรงบันดาลใจในการเรียนต่อในสาขานี้",
                         "นอกจากนี้ผมได้ฝึกงานที่บริษัทเขียนโปรแกรมและพัฒนาแอพพลิเคชันแห่งหนึ่งในจังหวัดน่านซึ่งทำให้ผมมีโอกาสเรียนรู้เกี่ยวกับ Vue.js และ Java Spring Boot ได้ฝึกทักษะการทำงานเป็นทีมและเข้าใจการทำงานของแต่ละแผนก ซึ่งเป็นประสบการณ์ที่มีคุณค่าและเป็นพื้นฐานสำคัญในการศึกษาต่อ",
                         "ผมมีทักษะด้านโปรแกรมมิ่งที่สอดคล้องกับสาขาวิชานี้ ได้แก่ HTML,CSS,JavaScript,Node.js,Vue.js,Python,PHP,PostgreSQL และการใช้ Bootstrap,Git,MySQL และการสร้าง REST API ใน Java Spring Boot รวมถึงการใช้ Vue.js ร่วมกับ Axios ในการดึง API มาใช้งาน อีกทั้งยังมีทักษะการใช้ซอฟต์แวร์ที่เกี่ยวข้อง ได้แก่ Postman,DBeaver,XAMPP,Figma",
-                        "ด้วยความรู้และประสบการณ์เหล่านี้ผมเชื่อว่าการศึกษาต่อในสาขาเทคโนโลยีสารสนเทศที่มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีจะช่วยให้ผมสามารถพัฒนาทักษะและความสามารถของตนเองให้ก้าวหน้าไปได้อย่างมีประสิทธิภาพ และเป็นก้าวสำคัญในการประกอบอาชีพในอนาคต"
+                        "ด้วยความรู้และประสบการณ์เหล่านี้ผมเชื่อว่าการศึกษาต่อในคณะเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีสารสนเทศ ที่มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีจะช่วยให้ผมสามารถพัฒนาทักษะและความสามารถของตนเองให้ก้าวหน้าไปได้อย่างมีประสิทธิภาพ และเป็นก้าวสำคัญในการประกอบอาชีพในอนาคต"
                     ]
                 }
             ],
@@ -34,7 +35,7 @@
             "component": "ServicesSection",
             "class": "agency-section-primary",
             "navbar": {
-                "label": "Services",
+                "label": "ความสามารถด้านโปรแกรมมิ่ง",
                 "faIcon": "fa-solid fa-wrench"
             },
             "headline": {
@@ -100,7 +101,37 @@
                 {
                     "title": "GIT",
                     "faIcon": "devicon-git-plain-wordmark colored",
-                    "description": "เป็น VCS มาใช้ในการ push ขึ้น Github เพื่ออัพเดตโปรเจคต่างๆ"
+                    "description": "เป็น VCS มาใช้ในการ push ขึ้น Github เพื่ออัพเดตโปรเจคต่างๆของเว็บไซต์ ก่อนหน้านี้เขียนเป็นคำสั่ง git ในการ pull add commit push ต่างๆ แต่ได้ Extention Git Graph มาจากพี่ที่ฝึกงาน ทำให้ Commit Fetch อะไรกับทีมได้ง่าย"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "faIcon": "devicon-postgresql-plain-wordmark colored",
+                    "description": "ได้ศึกษาด้วยตนเอง มารันใน Localhost เพื่อทำโปรเจคและทดสอบโปรเจค ก่อนไปรันบน Production"
+                },
+                {
+                    "title": "VS Code",
+                    "faIcon": "devicon-vscode-plain colored",
+                    "description": "ได้ศึกษาด้วยตนเอง ใช้เป็นเครื่องมือในการเขียนโปรแกรม HTML CSS JavaScript PHP และอื่นๆ"
+                },
+                {
+                    "title": "Eclipse IDE for Java",
+                    "faIcon": "devicon-eclipse-plain-wordmark colored",
+                    "description": "ได้ความรู้จากที่ฝึกงาน ในการใช้เป็นเครื่องมือในการทำและรันโปรเจค Backend ภาษา Java FRAMEWORK Spring boot"
+                },
+                {
+                    "title": "Postman",
+                    "faIcon": "devicon-postman-plain colored",
+                    "description": "ได้ความรู้จากที่ฝึกงาน ใช้ทดสอบ API เส้นต่างๆ SELECT POST PUT DELETE"
+                },
+                {
+                    "title": "DBeaver",
+                    "faIcon": "devicon-dbeaver-plain colored",
+                    "description": "ได้ความรู้จากที่ฝึกงาน ใช้จัดการ Data ต่างๆในฐานข้อมูล และการเขียน Script Select หาข้อมูล และ สร้าง View เพื่อนำไปประกอบการสร้างรายงาน"
+                },
+                {
+                    "title": "Figma",
+                    "faIcon": "devicon-figma-plain colored",
+                    "description": "ได้เรียนรู้จากพี่ที่ฝึกงาน ในการออกแบบเว็บไซต์โมดูลต่างๆก่อนลงมือ Coding"
                 }
             ],
             "footer": {}
@@ -110,81 +141,31 @@
             "component": "HistorySection",
             "class": "agency-section",
             "navbar": {
-                "label": "History",
+                "label": "การศึกษา",
                 "faIcon": "fa-solid fa-clock"
             },
             "headline": {
-                "title": "Our <span class='text-primary'>History</span>",
-                "subtitle": "Unlocking the secrets of our past!"
+                "title": "<span class='text-primary'>Education</span>",
+                "subtitle": "ประวัติการศึกษาตั้งแต่ ปี 2562-2567"
             },
             "items": [
                 {
-                    "title": "Our Founding",
-                    "date": "2010",
-                    "description": "Founded in 2010, our software/marketing agency began with a small team, driven by a passion for technology and innovation, aiming to deliver exceptional digital solutions. We laid the foundation for future success.",
-                    "imageUrl": "images/history/history-1.png"
+                    "title": "โรงเรียนปัว",
+                    "date": "2019 → 2021",
+                    "description": "ระดับชั้นมัธยมศึกษาตอนต้น GPAX 5 ภาคเรียน 3.33",
+                    "imageUrl": "images/history/Pua.png"
                 },
                 {
-                    "title": "Rapid Growth and Expansion",
-                    "date": "2010 → 2013",
-                    "description": "By 2013, our agency's reputation for quality services led to rapid growth, prompting us to expand our team and open a new office to better serve clients worldwide. We embraced opportunities for expansion.",
-                    "imageUrl": "images/history/history-2.png"
+                    "title": "วิทยาลัยเทคนิคปัว",
+                    "date": "2022 → 2025",
+                    "description": "ระดับชั้นมัธยมศึกษาตอนปลาย GPAX 5 ภาคเรียน 3.81",
+                    "imageUrl": "images/history/PuaTc.png"
                 },
                 {
-                    "title": "Diversification and Specialization",
-                    "date": "2013 → 2019",
-                    "description": "In 2017, we diversified our offerings, adding web design, SEO, social media management, and branding services, positioning ourselves as a comprehensive digital solutions provider. We became a one-stop-shop for clients.",
-                    "imageUrl": "images/history/history-3.png"
-                },
-                {
-                    "title": "Celebrating a Decade of Success",
-                    "date": "2020 → 2022",
-                    "description": "Proudly celebrating our 10th anniversary, our agency's decade-long journey is defined by innovation, exceptional service, and strong client relationships, empowering businesses through technology and creativity. We achieved remarkable success.",
-                    "imageUrl": "images/history/history-4.png"
-                },
-                {
-                    "title": "Planning for New Stuff",
-                    "date": "2023 → Now",
-                    "description": "As we continue to grow and evolve, we invite talented individuals, partners, and clients to join us in shaping the future of digital innovation and making a meaningful impact together. We are excited for what's to come.",
-                    "imageUrl": "images/history/history-5.png"
-                }
-            ],
-            "footer": {}
-        },
-        {
-            "id": "featured",
-            "class": "agency-section-featured",
-            "component": "FeaturedSection",
-            "navbar": {
-                "label": "Zork",
-                "faIcon": "fa-solid fa-bolt"
-            },
-            "headline": {},
-            "items": [
-                {
-                    "title": "<span class='text-primary'>Zork</span> App",
-                    "category": "Utilities",
-                    "description": "<b>Zork</b> is your ultimate battery life management app, empowering you to seize control of your device's energy consumption effortlessly. With its intuitive interface, Zork provides real-time monitoring of battery status, enabling you to identify power-draining apps and processes. Optimizing your device's settings becomes a breeze as Zork offers personalized recommendations to extend battery life without compromising performance.",
-                    "imageUrl": "images/portfolio/project-logo-8.png",
-                    "tags": [
-                        "app",
-                        "battery",
-                        "save"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        }
-                    ]
+                    "title": "บริษัท 98 อัลฟ่าเอ็มบอดิเม็นต์ จำกัด",
+                    "date": "2024 → ...",
+                    "description": "ทำงานในตำแหน่ง Frontend Developer",
+                    "imageUrl": "images/history/98alpha.png"
                 }
             ],
             "footer": {}
@@ -192,459 +173,47 @@
         {
             "id": "portfolio",
             "component": "PortfolioSection",
-            "class": "agency-section",
+            "class": "agency-section-primary",
             "navbar": {
                 "label": "Portfolio",
                 "faIcon": "fa-solid fa-camera"
             },
             "headline": {
-                "title": "A Rich <span class='text-primary'>Portfolio</span>",
-                "subtitle": "Get to know our amazing projects!"
+                "title": "<span class='text-primary'>Portfolio</span> <br/> นายณัฐวัตร จิตอารี",
+                "subtitle": "รวมโปรเจคต่างๆ"
             },
             "items": [
                 {
-                    "title": "SmartCash",
-                    "category": "Utilities",
-                    "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
-                    "imageUrl": "images/portfolio/project-logo-1.png",
+                    "title": "คาเฟ่ อำเภอปัว",
+                    "category": "Website Single Page",
+                    "description": "<b>คาเฟ่ อำเภอปัว</b> คือโปรเจค Website Single Page ทำ SEO ให้ติดอันดับ 1 ในหน้าแรกของการค้นหาของ Google เพื่อส่งเสริมการท่องเที่ยวให้กับอำเภอปัว จังหวัดน่าน โดยใช้ HTML CSS JavaScript และ Vue Js Framework การหาข้อมูล และถ่ายรูปภาพด้วยตนเอง",
+                    "imageUrl": "images/portfolio/cafepua.png",
                     "tags": [
-                        "app",
-                        "finance",
-                        "money",
-                        "budget"
+                        "Single Page Website"
                     ],
                     "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Snappy",
-                    "category": "Utilities",
-                    "description": "<b>Snappy</b> is your ultimate photography app, empowering you to capture and edit stunning images effortlessly. With its intuitive interface, Snappy provides a wide range of powerful tools and filters to enhance your photos and bring out your creativity. Whether you're a professional photographer or just a hobbyist, Snappy offers features like manual controls, advanced editing options, and AI-powered enhancements to take your photography to the next level.",
-                    "imageUrl": "images/portfolio/project-logo-2.png",
-                    "tags": [
-                        "app",
-                        "photography",
-                        "camera"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "BrainPulse",
-                    "category": "Utilities",
-                    "description": "<b>BrainPulse</b> is your ultimate brain training app, empowering you to boost cognitive abilities effortlessly. With its engaging interface, BrainPulse offers a variety of stimulating games and exercises designed to enhance memory, attention, problem-solving, and more. Track your progress and challenge yourself to reach new mental heights with personalized training programs tailored to your specific needs and goals.",
-                    "imageUrl": "images/portfolio/project-logo-3.png",
-                    "tags": [
-                        "app",
-                        "brain",
-                        "training"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Stackers",
-                    "category": "Productivity",
-                    "description": "<b>Stackers</b> is your ultimate productivity app, empowering you to stay organized and focused effortlessly. With its intuitive and streamlined interface, Stackers offers a variety of tools to help you manage tasks, notes, and projects effectively. Create to-do lists, set reminders, and collaborate with teammates to achieve your goals seamlessly. Take control of your time and boost your productivity with Stackers as your reliable productivity companion.",
-                    "imageUrl": "images/portfolio/project-logo-6.png",
-                    "tags": [
-                        "app",
-                        "productivity",
-                        "organization",
-                        "tasks"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-amazon",
-                            "href": "https://amazon.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Find-A-Goalie",
-                    "category": "Utilities",
-                    "description": "<b>Find-A-Goalie</b> is your go-to app for finding goalkeepers to join your casual soccer matches. With its simple and efficient interface, Goalkeeper Finder connects players and goalkeepers in your local area, making it easy to organize matches and build a reliable team. Say goodbye to match cancellations due to lack of goalkeepers and enjoy the beautiful game with newfound teammates.",
-                    "imageUrl": "images/portfolio/project-logo-4.png",
-                    "tags": [
-                        "app",
-                        "sports",
-                        "soccer",
-                        "goalkeeper"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Sweet Scoops",
-                    "category": "Social",
-                    "description": "<b>Sweet Scoops</b> is your delightful companion for exploring the world of ice creams. With its mouthwatering interface, SweetScoops offers a wide selection of ice cream flavors, recipes, and unique combinations to tickle your taste buds. Whether you're an ice cream enthusiast or a connoisseur, SweetScoops allows you to discover new flavors, find nearby ice cream parlors, and even create your personalized ice cream masterpieces.",
-                    "imageUrl": "images/portfolio/project-logo-5.png",
-                    "tags": [
-                        "app",
-                        "food",
-                        "ice cream",
-                        "dessert"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "MailM8",
-                    "category": "Productivity",
-                    "description": "<b>MailM8</b> is your reliable mailing app, empowering you to manage your emails efficiently. With its sleek and user-friendly interface, MailM8 offers features like intuitive organization, smart filters, and seamless integration with other productivity tools. Stay on top of your inbox, draft emails effortlessly, and boost your productivity with MailM8 as your trusty email companion.",
-                    "imageUrl": "images/portfolio/project-logo-7.png",
-                    "tags": [
-                        "app",
-                        "mail",
-                        "email",
-                        "productivity"
-                    ],
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-windows",
-                            "href": "https://windows.com"
-                        },
                         {
                             "faIcon": "fa-brands fa-chrome",
-                            "href": "https://chrome.com"
+                            "href": "https://nan.puanj.com/pua/cafe"
                         }
                     ]
                 },
                 {
-                    "title": "RockVerse",
-                    "category": "Social",
-                    "description": "<b>RockVerse</b> is your gateway to a mesmerizing world of rock 'n roll, empowering you to immerse yourself in the essence of rock effortlessly. With its dynamic and immersive interface, RockVerse offers an extensive library of iconic rock songs, legendary albums, and captivating rock artists. Unearth rare footage, delve into the history of rock, and experience mind-blowing live performances of your favorite bands. Connect with a vibrant community of rock enthusiasts, share your playlists, and embark on a legendary musical journey with RockVerse as your ultimate rock music haven.",
-                    "imageUrl": "images/portfolio/project-logo-9.png",
+                    "title": "59 วัด อำเภอปัว จังหวัดน่าน",
+                    "category": "Website Single Page",
+                    "description": "<b>59 วัด อำเภอปัว จังหวัดน่าน</b> คือโปรเจค Website Single Page ทำ SEO ให้ติดอันดับ ในหน้าแรกของการค้นหาของ Google เพื่อส่งเสริมการท่องเที่ยวและวัฒนธรรมให้กับอำเภอปัว จังหวัดน่าน โดยใช้ HTML CSS JavaScript และ React Framework ถ่ายรูปภาพด้วยตนเอง ข้อมูลบางส่วนนำมาจากเว็บไซต์อ้างอิงและบางส่วนขอข้อมูลจากทางวัด",
+                    "imageUrl": "images/portfolio/templepua.png",
                     "tags": [
-                        "app",
-                        "rock",
-                        "music",
-                        "bands"
+                        "Single Page Website"
                     ],
                     "links": [
                         {
-                            "faIcon": "fa-brands fa-apple",
-                            "href": "https://apple.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-google-play",
-                            "href": "https://googleplay.com"
+                            "faIcon": "fa-brands fa-chrome",
+                            "href": "https://temple.puanj.com/temple"
                         }
                     ]
                 }
             ],
-            "footer": {
-                "divider": true,
-                "title": "Work with us and <span class='text-primary'>save money!</span>",
-                "description": "Want a quote for the project budget? Reach out to us, and we'll promptly provide the information you need. Our team is here to assist you in any way we can!",
-                "smallDescription": false,
-                "button": {
-                    "label": "Contact Us!",
-                    "faIcon": "fa-solid fa-message me-2",
-                    "href": "#contact"
-                }
-            }
-        },
-        {
-            "id": "team",
-            "component": "TeamSection",
-            "class": "agency-section-primary",
-            "navbar": {
-                "label": "Team",
-                "faIcon": "fa-solid fa-user"
-            },
-            "headline": {
-                "title": "Our <span class='text-primary'>Team</span>",
-                "subtitle": "Meet the main characters of our amazing crew!"
-            },
-            "items": [
-                {
-                    "title": "Jonathan Moore",
-                    "imageUrl": "images/avatars/person-1.png",
-                    "description": "CEO",
-                    "quote": "With over 20 years of experience in international development, I've dedicated my career to creating sustainable solutions for communities in need.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-twitter",
-                            "href": "https://twitter.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-instagram",
-                            "href": "https://instagram.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Alicia Cole",
-                    "imageUrl": "images/avatars/person-2.png",
-                    "description": "Marketing Analist",
-                    "quote": "With my expertise in market research and consumer behavior, I help businesses make strategic decisions that drive growth and enhance overall customer satisfaction.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-twitter",
-                            "href": "https://twitter.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Sofia Kondakova",
-                    "imageUrl": "images/avatars/person-3.png",
-                    "description": "Lead Developer",
-                    "quote": "With a proven track record of creating complex software systems, I bring a wealth of technical expertise to the table.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-twitter",
-                            "href": "https://twitter.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-github",
-                            "href": "https://github.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Jiang Xi",
-                    "imageUrl": "images/avatars/person-4.png",
-                    "description": "Product Manager",
-                    "quote": "Leading diverse teams with strategic vision, I drive customer-centric solutions, fostering innovation and delivering real value to the market.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-instagram",
-                            "href": "https://instagram.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-facebook",
-                            "href": "https://facebook.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Travis Jones",
-                    "imageUrl": "images/avatars/person-5.png",
-                    "description": "CFO",
-                    "quote": "Guiding financial growth, I ensure stability through meticulous planning and risk management. Empowering the team to seize opportunities, we achieve lasting success.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-instagram",
-                            "href": "https://instagram.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                },
-                {
-                    "title": "Aaron Friedrich",
-                    "imageUrl": "images/avatars/person-6.png",
-                    "description": "Information Security Officer",
-                    "quote": "Safeguarding valuable data is my mission. As a vigilant CISO, I proactively secure the digital landscape, assuring the trust of customers and partners with cutting-edge measures.",
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-instagram",
-                            "href": "https://instagram.com"
-                        },
-                        {
-                            "faIcon": "fa-brands fa-linkedin",
-                            "href": "https://linkedin.com"
-                        }
-                    ]
-                }
-            ],
-            "footer": {}
-        },
-        {
-            "id": "reviews",
-            "component": "ReviewsSection",
-            "class": "agency-section",
-            "navbar": {
-                "label": "Reviews",
-                "faIcon": "fa-solid fa-comment"
-            },
-            "headline": {
-                "title": "Client <span class='text-primary'>Reviews</span>",
-                "subtitle": "What people say about us!"
-            },
-            "items": [
-                {
-                    "title": "Spotify",
-                    "imageUrl": "images/clients/client-spotify.svg",
-                    "quote": "I am absolutely blown away by the Vue3 website template! The minimalist design is simply stunning, and it's incredibly easy to customize to fit my needs. Plus, it loads super fast, which is crucial for my business. I highly recommend this template!",
-                    "description": "John Lee – Engineer"
-                },
-                {
-                    "title": "Voloco",
-                    "imageUrl": "images/clients/client-voloco.svg",
-                    "quote": "I can't say enough good things about this website template. As someone with no coding experience, I was able to create a professional-looking website in no time. The responsiveness is top-notch, and the open-source nature of the code means I can tweak it to my heart's content. This template is a game-changer!",
-                    "description": "Any Heather – HR Lead"
-                },
-                {
-                    "title": "Microsoft",
-                    "imageUrl": "images/clients/client-microsoft.svg",
-                    "quote": "This is hands down the best website template I've ever used. The lightweight codebase makes for a lightning-fast site, and the fully customizable nature allowed me to create a unique and engaging experience for my users. I highly recommend this template to anyone looking for a sleek, modern, and easy-to-use website solution.",
-                    "description": "Bill Gates – CEO"
-                },
-                {
-                    "title": "Facebook",
-                    "imageUrl": "images/clients/client-facebook.svg",
-                    "quote": "The Vue3 theme surpassed expectations with its stunning design, seamless integration, and excellent performance. Highly recommended for a transformative website experience.",
-                    "description": "Mark Zuckie – CEO"
-                },
-                {
-                    "title": "Nasa",
-                    "imageUrl": "images/clients/client-nasa.svg",
-                    "quote": "I am absolutely thrilled to express my admiration for this top-notch template with its simple and intuitive design! Words alone cannot do justice to the delight it has brought into my life. From the very first moment I laid my eyes on it, I knew this was something special.",
-                    "description": "John Suarez - Tech Analyst"
-                }
-            ],
-            "footer": {}
-        },
-        {
-            "id": "faq",
-            "component": "FaqSection",
-            "class": "agency-section-primary",
-            "navbar": {
-                "label": "Q&A",
-                "faIcon": "fa-solid fa-question-circle"
-            },
-            "headline": {
-                "title": "Questions and <span class='text-primary'>Answers</span>",
-                "subtitle": "Quick answers to your queries!"
-            },
-            "items": [
-                {
-                    "title": "How do I customize the content of the template?",
-                    "description": "To customize the content, you'll need to modify the <i>agency.json</i> and the <i>sections.json</i> files, which are located in the <i>data</i> folder within the <i>public</i> directory. These JSON files contain the necessary data for the template, allowing you to change texts, images, links, and other elements as per your requirements. Make sure to follow the provided structure to avoid any formatting issues. Additionally, if you need to add new sections or make more extensive changes, you may need to work with the Vue components and other files within the template's structure."
-                },
-                {
-                    "title": "Can I expect the template to be responsive and work well on mobile devices?",
-                    "description": "Absolutely! The template is designed with responsiveness in mind, ensuring that it adapts to various screen types and sizes, including mobile devices. The use of responsive design techniques like media queries and flexible layout ensures that the template looks and functions well on smartphones, tablets, and other mobile devices. During customization, make sure to preview the template on different screen sizes and devices to ensure it displays correctly. If you encounter any issues, you can adjust the CSS styles or layout accordingly to improve the mobile experience further."
-                },
-                {
-                    "title": "How can I enable the functionality of the contact form?",
-                    "description": "Integrating the contact form requires implementing your own server-side logic. Please note that the current template only includes the client-side implementation. You'll need to set up a backend server to handle form submissions, process data, and send emails or perform other actions as needed. Ensure that the server-side code is secure to prevent potential security vulnerabilities. On the frontend, you can link the form submission to your backend endpoints using JavaScript. Keep in mind that specific steps may vary based on your backend technology and preferences."
-                },
-                {
-                    "title": "What steps should I follow to add a new section to the theme?",
-                    "description": "Adding a new section to the theme involves a few steps. First, create a new Vue component for it in the <i>sections</i> folder. Use the existing components as a reference to maintain consistency with the template's design and functionality. Next, within the <i>public/data/sections.json</i> file, create an item for the new section, where you can define all the necessary data such as texts, links, and other information. After completing these steps, your new section should be fully integrated into the theme."
-                }
-            ],
-            "footer": {
-                "divider": false,
-                "title": "<span class='text-primary'>Save time</span> with Nadtawat Jitaree Template!",
-                "description": "Nadtawat Jitaree Template beautifully and intuitively extends the Vue and Bootstrap frameworks making it easy to build your next project!",
-                "smallDescription": true,
-                "button": {
-                    "label": "Download Now!",
-                    "faIcon": "fa-solid fa-download",
-                    "href": "https://github.com/ryanbalieiro/foxy-template"
-                }
-            }
-        },
-        {
-            "id": "contact",
-            "component": "ContactSection",
-            "class": "agency-section-dark",
-            "navbar": {
-                "label": "Contact",
-                "faIcon": "fa-solid fa-envelope"
-            },
-            "headline": {
-                "title": "Contact Us",
-                "subtitle": "Don't hesitate to reach us out!"
-            },
             "footer": {}
         }
     ]

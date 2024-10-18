@@ -94,4 +94,5 @@ const _onProjectOpened = (item) => {
 
 <style lang="scss" scoped>
 @import "/src/scss/_theming.scss";
+
 </style>
